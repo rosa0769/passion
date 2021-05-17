@@ -98,3 +98,18 @@ video {
   margin-left: auto;
   margin-right: auto;
 }
+
+.iframe_container {
+  width: 70vw;
+  height: 0;
+  position: relative;
+  padding-top: 43.25%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.iframe_container iframe {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  inset: 0;
+}

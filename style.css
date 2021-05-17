@@ -1,0 +1,100 @@
+@font-face {
+  font-family: "forturn";
+  src: url("fonts/forturn-webfont.woff2") format("woff2");
+}
+body {
+  background-color: white;
+}
+h1 {
+  text-align: center;
+  font-family: "forturn";
+  font-weight: 200;
+  font-size: 3vw;
+  font-style: normal;
+  color: orangered;
+}
+
+h3 {
+  text-align: center;
+  font-family: "forturn";
+  font-weight: 200;
+  font-size: 2.5vw;
+  font-style: normal;
+  color: orangered;
+}
+li {
+  display: inline;
+  font-family: "forturn";
+  font-weight: 200;
+  font-size: 1.5vw;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+
+li a {
+  color: orangered;
+  text-decoration: none;
+  font-family: "forturn";
+}
+
+li a:hover {
+  color: rgb(241, 150, 117);
+}
+
+header {
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  padding-top: 2vw;
+}
+
+li {
+  padding: 2vw;
+}
+img {
+  height: 20vw;
+}
+.layoutdiagram img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50vw;
+  height: auto;
+}
+
+.github a {
+  color: orangered;
+  font-family: sans-serif;
+  text-decoration: none;
+  margin-left: 45vw;
+  font-family: "forturn";
+  font-size: 2vw;
+}
+
+.github a:hover {
+  color: rgb(241, 150, 117);
+}
+
+figcaption {
+  background-color: white;
+  color: orangered;
+  font-family: "forturn";
+  font-size: 2vw;
+  display: block;
+  margin-left: 42.5vw;
+  margin-right: auto;
+}
+
+.stilfotos img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+video {
+  width: 70vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
